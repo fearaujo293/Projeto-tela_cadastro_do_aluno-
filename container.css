@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Medium,black ;
+    background-color: #ffff;
+}
+
+.lista_de_alunos {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #4D44B5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lista_de_alunos h2 {
+    font-size: 1.2em;
+    color: #ffff;
+}
