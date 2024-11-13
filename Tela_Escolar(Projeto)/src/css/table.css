@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4D44B5;
+    color: #fff;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+h2 {
+    color: #4D44B5; 
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+table thead {
+    background-color: #4D44B5;
+    color: #fff;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+}
+
+table tbody tr {
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9ff;
+}
+
+table tbody tr:hover {
+    background-color: #e9e9f5;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.actions {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+button.edit, button.delete {
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button.edit {
+    background-color: #4D44B5;
+}
+
+button.delete {
+    background-color: #D32F2F;
+}
+
+button.edit:hover, button.delete:hover {
+    transform: scale(1.1);
+}
+
+button.edit:hover {
+    background-color: #4D44B5;
+}
+
+button.delete:hover {
+    background-color: #B71C1C;
+}
+
+
+.new-button-container {
+    padding: left;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 10%;
+}
+
+.new-button {
+    display: inline-block;
+    background-color: #4D44B5;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.new-button:hover {
+    background-color: #4D44B5;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+    }
+    .actions {
+        flex-direction: column;
+    }
+}

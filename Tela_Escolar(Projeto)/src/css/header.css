@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: black, Verdana;
+}
+
+.header {
+    background-color: #4D44B5; 
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.nav .active {
+    background-color: #2C0E5E; 
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav .logout {
+    font-size: 0.9em;
+    color: #ddd;
+}

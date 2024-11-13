@@ -1,0 +1,28 @@
+
+
+body {
+    font-family:'Franklin Gothic Medium',white; 
+    background-color: #ffff;
+}
+
+.lista_de_alunos {
+    color: #4D44B5;
+    width: 100%;
+    margin: 30px auto;
+    background-color: #4D44B5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lista_de_alunos h2 {
+    background-color: #4D44B5;
+    padding-block: 100px;
+    font-size: 1.2em;
+    color: #4D44B5;
+}
+li{
+    padding-left: 1750px;
+    border-radius: 5px;
+    font-size: 25px;
+}

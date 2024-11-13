@@ -1,0 +1,27 @@
+*{
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+body{
+    font-family: 'Vollkorn', Georgia, serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 20px;
+    max-height: 20px;
+    border-radius: 10px;
+}
+
+ul{
+display: 30px;
+
+}
